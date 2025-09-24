@@ -1,0 +1,62 @@
+h1 {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+header {
+    position: relative;
+    display: block;       
+    margin: 90px auto 30px; 
+    text-align: center;     
+}
+
+header h1 {
+    margin: 0;
+    font-style: italic;
+}
+
+/*coluna da esquerda*/
+.container {
+    display: flex;
+    gap: 60px;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 100px;
+}
+
+.col-left {
+    flex: 3;
+}
+
+.col-right {
+    flex: 1;
+}
+
+.session {
+    max-width: 700px;
+}
+.session .filme {
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+.session p {
+    margin: 8px 0;
+}
+
+.session .movie-img {
+    display: block;
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/*coluna da direita*/
+button {
+    background-color: pink;
+}
+
+.descrip-sidebar img {
+    max-width: 90px;
+}
