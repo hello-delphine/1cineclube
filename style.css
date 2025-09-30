@@ -19,10 +19,11 @@ header h1 {
 .container {
     display: flex;
     gap: 60px;
-    margin-top: 40px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin: 40px auto 0;
     padding-top: 100px;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px; /* Adds breathing room on mobile */
 }
 
 .col-left {
