@@ -36,8 +36,9 @@ header h1 {
 .session {
     max-width: 700px;
 }
+
 .session .filme {
-    margin-bottom: 1px;
+    margin-bottom: 20px;
     margin-top: 1px;
 }
 
