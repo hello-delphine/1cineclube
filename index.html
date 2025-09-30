@@ -8,21 +8,24 @@
 </head>
 <body>
 <header>
-    <h1>um cineclub </h1>
+    <h1>1cineclube </h1>
 </header>
 
 <div class="container">
     <!--coluna da esquerda:sessoes-->
 <main class="col-left">
 <section class="session">
-    <p class="session"><span style="font-style: italic;">sessão 1</span></p>
-    <h2 class="filme"><span style="font-style: italic;">palestinian women</span>, jocelyne saab</h2>
+    <p class="session">sessão 1</p>
+    <h2 class="filme"><span style="font-style: italic;">palestinian women</span>, jocelyne saab <br><span style="font-style: italic;">untitled part 1: everything and nothing</span>, jayce salloum </h2>
     <p class="horario">28 de outubro, 2025 – 20:00h <br></p>
     <p class="descricao"> Para a nossa primeira sessão iremos ver e discutir 
-        o filme Palestinian Women, que centra as mulheres da palestina, que ganham aqui voz através de Jocelyne Saab. O filme foi encomendado pela Antenne 2 (França), mas 
+        o filme <span style="font-style: italic;"> palestinian women</span>, que centra as mulheres da palestina, que ganham aqui voz através de Jocelyne Saab. O filme foi encomendado pela Antenne 2 (França), mas 
         foi censurado ainda na fase de edição e nunca chegou a ser exibido. Esta cópia foi especialmente produzida para 
         esta retrospetiva pelo centro de conservação da Cinemateca Portuguesa.</p>
-    <img src="Images/palestinian-women.jpg" alt="leila khaled" class="movie-img">
+    <div class="imagem-sessao">
+    <img src="Images/palestinian-women-b-w-2.png" alt="still do filme palestinian women" class="movie-img">
+    <img src="Images/untitled-b-w.png" class="movie-img" alt="still do filme Untitled">
+    </div>
 
 </section>
 </main>
@@ -30,8 +33,8 @@
 <aside class="clo-right">
 <!--descricao do projecto-->
 <section class="descrip-sidebar">
-    <img src="Images/logo-cineclube.png" alt="logo">
-    <p>cineclube em lisboa</p>
+    <img src="Images/logo-cineclube.png" alt="log of the cinema club">
+    <p>cineclube em lisboa <br>sessões de partilha</p>
 </section>
 
 <!--contacto-->
@@ -43,11 +46,12 @@
 <!--newsletter sign up-->
 <section class="newsletter">
     <p>newsletter 𓁹‿𓁹</p>
-            <form>
-               <input type="email" placeholder="o teu email">
-                <button type="submit">subscrever</button>
-            </form>
-            </section>
+    <form name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="email" name="email" placeholder="o teu email" required>
+        <button type="submit">subscrever</button>
+    </form>
+</section>
+
 
 <!--barra de pesquisa
 <section class="pesquisa">
