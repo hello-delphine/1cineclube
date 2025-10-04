@@ -82,6 +82,32 @@ button {
     flex: 1;
 }
 
+
+.success-message {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.success-message h2 {
+  font-style: italic;
+}
+
+.back-link {
+  display: inline-block;
+  text-decoration: underline;
+  color: blue;
+}
+
+.img-logo-success {
+    display: block;
+    max-width: 90px;
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
 /* Mobile responsiveness - RIGHT COLUMN MOVES TO BOTTOM */
 @media (max-width: 768px) {
     .container {
@@ -123,3 +149,5 @@ button {
         margin: 60px auto 20px; 
     }
 }
+
+
