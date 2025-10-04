@@ -127,6 +127,7 @@ button {
         flex: none; 
         width: 100%; 
         order: 2; /* RIGHT COLUMN comes SECOND (bottom) */
+        padding-bottom: 60px;
     }
     
 
