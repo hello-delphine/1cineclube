@@ -1,67 +1,108 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>um cineclube</title>
-    <link rel="icon" type="image/x-icon" href="/Images/logo-cineclube.png">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>um cineclube</title>
+
+  <link rel="icon" type="image/png" href="/Images/logo-cineclube.png">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
 <header>
-    <h1>1cineclube </h1>
+  <h1>1cineclube</h1>
 </header>
 
 <div class="container">
-    <!--coluna da esquerda:sessoes-->
-<main class="col-left">
-<section class="session">
-    <p class="session">Sessão 1</p>
-    <p class="horario">29 de Outubro, 2025 às 18:30h em Lisboa</p>
-    <h2 class="filme"><i>Palestinian Women</i>, Jocelyne Saab <br><i>untitled part 1: everything & nothing</i>, Jayce Salloum </h2>
-    <p class="descricao"> Na nossa primeira sessão iremos apresentar dois filmes que têm como figuras centrais mulheres e a sua acção revolucionária.
-    <i>Palestinian women</i> (1973/4) é uma curta-metragem documental da realizadora libanesa Jocelyne Saab, que dá voz às mulheres Palestinianas guerrilheiras na Síria. O filme resultou de uma encomenda pela Antenne 2, 
-    estação francesa de televisão, e nunca chegou a ser exibido, tendo sido censurado durante a sua pós-produção. 
-    A Cinemateca Portuguesa restaurou a cópia actualmente disponível, aquando de uma retrospectiva da realizadora.
-    <br><br>
-O segundo filme, <i>untitled part 1: everything & nothing</i> (2002), 
-do realizador canadiano Jayce Salloum, é uma conversa-retrato com Soha Bechara, 
-libanesa ex-combatente da Resistência Nacional Libanesa. Estas imagens foram filmadas um ano 
-após a sua libertação do centro de tortura e interrogatório de El-Khiam, no sul do Líbano. 
-Um diálogo que acompanha as memórias de Soha e o seu testemunho, através da partilha dos seus 
-pensamentos assentes sobre os seus ideais de resistência, sobrevivência, distância, amor, perda, empatia, o que resta e permanece.</p>
-    <div class="imagem-sessao">
-    <img src="Images/palestinian-women-b-w-2.png" alt="still do filme palestinian women" class="movie-img">
-    <img src="Images/untitled-b-w.png" class="movie-img" alt="still do filme Untitled">
-    </div>
 
-</section>
-</main>
-<!--coluna da direita:sidebar-->
-<aside class="col-right">
-<!--descricao do projecto-->
-<section class="descrip-sidebar">
-    <img src="Images/logo-cineclube.png" alt="log of the cinema club">
-    <p>cineclube em lisboa <br>sessões de partilha</p>
-</section>
+  <!-- COLUNA ESQUERDA -->
+  <main class="col-left">
 
-<!--contacto-->
-<section class="contacto">
-    <p>contacto <br>1cineclube@gmail.com </p>
-</section>
+    <!-- SESSÃO 2 -->
+    <section class="session">
+      <p class="session-num">Sessão 2</p>
+      <p class="horario">26 de Novembro, 2025 às 19:30h em Lisboa</p>
 
+      <h2 class="filme"><i>Malqueridas</i>, Tana Gilbert</h2>
 
-<!--newsletter sign up-->
-<section class="newsletter">
-  <p>newsletter 𓁹‿𓁹</p>
-  <form name="contact" method="POST" data-netlify="true" action="/success.html">
-    <p>
-      <label><input type="email" name="email" required /></label>
-      <button type="submit">𝑠𝑢𝑏𝑠𝑐𝑟𝑒𝑣𝑒𝑟</button>
-    </p>
-  </form>
-</section>
-</aside>
+      <p class="descricao">
+        São mulheres. São mães. São reclusas a cumprir longas penas numa prisão no Chile. 
+        Os seus filhos crescem longe delas, mas permanecem nos seus corações. Na prisão, 
+        encontram o carinho de outras reclusas que partilham a mesma experiência. O apoio 
+        mútuo entre estas mulheres torna-se uma forma de resistência e emancipação. 
+        <i>Malqueridas</i> reconstrói as suas histórias através das imagens que elas próprias 
+        captaram com telemóveis proibidos dentro da prisão, recuperando a memória coletiva 
+        de uma comunidade esquecida.
+      </p>
+
+      <div class="imagem-sessao">
+        <img src="Images/Malqueridas.png" alt="still do filme Malqueridas" class="movie-img">
+      </div>
+    </section>
+
+    <!-- SESSÃO 1 -->
+    <section class="session">
+      <p class="session-num">Sessão 1</p>
+      <p class="horario">29 de Outubro, 2025 às 18:30h em Lisboa</p>
+
+      <h2 class="filme">
+        <i>Palestinian Women</i>, Jocelyne Saab <br>
+        <i>untitled part 1: everything & nothing</i>, Jayce Salloum
+      </h2>
+
+      <p class="descricao">
+        Na nossa primeira sessão iremos apresentar dois filmes que têm como figuras centrais 
+        mulheres e a sua acção revolucionária. <i>Palestinian women</i> (1973/4) é uma curta-metragem 
+        documental da realizadora libanesa Jocelyne Saab, que dá voz às mulheres palestinianas 
+        guerrilheiras na Síria. O filme resultou de uma encomenda pela Antenne 2, estação francesa 
+        de televisão, e nunca chegou a ser exibido, tendo sido censurado durante a sua pós-produção. 
+        A Cinemateca Portuguesa restaurou a cópia atualmente disponível, aquando de uma retrospectiva 
+        da realizadora.
+        <br><br>
+        O segundo filme, <i>untitled part 1: everything & nothing</i> (2002), do realizador canadiano 
+        Jayce Salloum, é uma conversa-retrato com Soha Bechara, libanesa ex-combatente da Resistência 
+        Nacional Libanesa. Estas imagens foram filmadas um ano após a sua libertação do centro de 
+        tortura e interrogatório de El-Khiam, no sul do Líbano. Um diálogo que acompanha as memórias 
+        de Soha e o seu testemunho, através da partilha dos seus pensamentos assentes sobre os seus 
+        ideais de resistência, sobrevivência, distância, amor, perda, empatia, o que resta e permanece.
+      </p>
+
+      <div class="imagem-sessao">
+        <img src="Images/palestinian-women-b-w-2.png" alt="still do filme Palestinian Women" class="movie-img">
+        <img src="Images/untitled-b-w.png" alt="still do filme Untitled" class="movie-img">
+      </div>
+    </section>
+
+  </main>
+
+  <!-- COLUNA DIREITA -->
+  <aside class="col-right">
+
+    <section class="descrip-sidebar">
+      <img src="Images/logo-cineclube.png" alt="logotipo do cineclube">
+      <p>cineclube em lisboa <br>sessões de partilha</p>
+    </section>
+
+    <section class="contacto">
+      <p>contacto <br>1cineclube@gmail.com</p>
+    </section>
+
+    <section class="newsletter">
+      <p>newsletter 𓁹‿𓁹</p>
+
+      <form name="contact" method="POST" data-netlify="true" action="/success.html">
+        <label>
+          <input type="email" name="email" required>
+        </label>
+        <button type="submit">𝑠𝑢𝑏𝑠𝑐𝑟𝑒𝑣𝑒𝑟</button>
+      </form>
+    </section>
+
+  </aside>
+
 </div>
+
 </body>
 </html>
