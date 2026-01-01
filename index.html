@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>um cineclube</title>
 
-  <link rel="icon" type="image/png" href="/Images/logo-cineclube.png">
-  <link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="Images/logo-cineclube.png">
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -92,12 +92,19 @@
     <section class="newsletter">
       <p>newsletter 𓁹‿𓁹</p>
 
-      <form name="contact" method="POST" data-netlify="true" action="/success.html">
-        <label>
-          <input type="email" name="email" required>
-        </label>
-        <button type="submit">𝑠𝑢𝑏𝑠𝑐𝑟𝑒𝑣𝑒𝑟</button>
-      </form>
+<form
+  action="https://formspree.io/f/meeoobea"
+  method="POST"
+>
+  <input type="hidden" name="_redirect" value="success.html">
+
+  <label>
+    <input type="email" name="email" placeholder="email" required>
+  </label>
+
+  <button type="submit">𝑠𝑢𝑏𝑠𝑐𝑟𝑒𝑣𝑒𝑟</button>
+</form>
+
     </section>
 
   </aside>
